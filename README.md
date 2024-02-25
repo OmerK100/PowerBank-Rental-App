@@ -23,7 +23,7 @@ The front-end code can be seen inside app/newComponents folder.
 ## Following are images of some of the app's screens:
 
 Getting started screen:
-<img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/d2d65dbd-c587-43ad-9c04-411c91d8f109" width=300 height=700 display="inline">
+<img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/d2d65dbd-c587-43ad-9c04-411c91d8f109" width=300 height=700 display="block">
 
 Getting started onboarding screen:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/a0dcea5f-a8f6-4f37-b1ec-710167c6a68a" width=300 height=700 align="right">

@@ -21,7 +21,7 @@ import {GoogleSignin, statusCodes} from '@react-native-google-signin/google-sign
 
 
 
-const Signup = () => {
+const Signup = () => { // Sign up screen
 
   const navigation: any = useNavigation();
 
@@ -54,7 +54,7 @@ const Signup = () => {
 
   
 
-  const [changedInputNumber, setChangedInputNumber] = useState("")
+  const [changedInputNumber, setChangedInputNumber] = useState("") // States
 
   const [changedInputName, setChangedInputName] = useState("")
 
@@ -67,7 +67,7 @@ const Signup = () => {
   const auth: any = FIREBASE_AUTH;
 
 
-  function addCheckIcon(text) {
+  function addCheckIcon(text) { // Check icon for correct data format entered
     if (text.length === 7 && selected !== "") {
       return <CheckIcon style={styles.checkIcon}/>
     }
@@ -75,7 +75,7 @@ const Signup = () => {
     return
   }
 
-  async function handleSignupPress() {
+  async function handleSignupPress() { // Creating an account in the firebase api
     try {
       const response = await createUserWithEmailAndPassword(auth, changedInputEmail, changedInputPassword);
       console.log(response);
@@ -86,11 +86,11 @@ const Signup = () => {
     }
   }
 
-  async function setCredentials(username, password) {
+  async function setCredentials(username, password) { // Saving the credentials created by the user in his device for auto login next time
     await Keychain.setGenericPassword(username, password);
   }
 
-  function handleLoginTitlePress() {
+  function handleLoginTitlePress() { // Handling navigation and form state changes
     navigation.navigate('Login');
   }
 
@@ -110,7 +110,7 @@ const Signup = () => {
     setChangedInputPassword(text)
   }
 
-  async function handleGoogleAPIsignUp() {
+  async function handleGoogleAPIsignUp() { // Addition of Google sign up api
     
     
       try {
@@ -143,7 +143,7 @@ return ;
     {key: '6', value: '058'},
   ];
 
-  return (
+  return ( // Component
     <ImageBackground style={styles.container} source={require('../newImages/Rectangle.png')} imageStyle={{borderTopLeftRadius: 115, borderTopRightRadius: 115}}>
       <View style={styles.options}>
         <TouchableOpacity onPress={() => {handleLoginTitlePress()}}>
@@ -223,7 +223,7 @@ return ;
 
 export default Signup
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   container: {
     height: Dimensions.get('window').height,

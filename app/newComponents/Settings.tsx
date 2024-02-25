@@ -24,7 +24,7 @@ import { useNavigation } from '@react-navigation/native'
 import * as Keychain from 'react-native-keychain';
 
 
-const Settings = ({route, navigation}: any) => {
+const Settings = ({route, navigation}: any) => { // Settings screen
 
   //const navigation: any = useNavigation();
 
@@ -32,7 +32,7 @@ const Settings = ({route, navigation}: any) => {
     navigation.goBack();
   }
 
-  async function handleLogOut() {
+  async function handleLogOut() { // Handling different options presses
     await Keychain.resetGenericPassword();
     navigation.goBack();
   }
@@ -49,7 +49,7 @@ const Settings = ({route, navigation}: any) => {
     navigation.navigate('AboutUs')
   }
 
-  return (
+  return ( // Component
     <ImageBackground style={styles.container} source={require('../newImages/Rectangle.png')}>
 
 
@@ -110,7 +110,7 @@ const Settings = ({route, navigation}: any) => {
 
 export default Settings
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   container: {
     height: Dimensions.get('window').height,

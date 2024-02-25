@@ -3,7 +3,7 @@ import React from 'react'
 import LeftArrow from '../newIcons/chevron-left.svg'
 import RentalComponent from './RentalComponent'
 
-const RentalHistory = ({navigation}: any) => {
+const RentalHistory = ({navigation}: any) => { // Rental history screen that will have the list of the rental components
 
   function handleBackPress() {
     navigation.goBack();

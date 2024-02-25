@@ -9,7 +9,7 @@ import LinearGradient from 'react-native-linear-gradient'
 import LeftArrow from '../newIcons/chevron-left.svg'
 
 
-const Verification = ({navigation}: any, props) => {
+const Verification = ({navigation}: any, props) => { // A phone verification screen that will be emitted..
 
   const ref2 = useRef<TextInput>(null);
   const ref3 = useRef<TextInput>(null);

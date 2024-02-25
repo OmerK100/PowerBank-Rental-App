@@ -3,10 +3,10 @@
 */
 
 
-import { Dimensions, StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
+import { Dimensions, StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native' // Imports
 import React from 'react'
 
-const GetStarted = () => {
+const GetStarted = () => { // Component itself
   return (
     <View style={styles.container}>
       <Image
@@ -26,7 +26,7 @@ const GetStarted = () => {
 
 export default GetStarted
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   container: {
     backgroundColor: '#181F38',

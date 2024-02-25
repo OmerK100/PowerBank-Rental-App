@@ -17,7 +17,7 @@ const OnboardingComponent = (props: any) => {
 
   const navigation: any = useNavigation();
 
-  function onboardImage() {
+  function onboardImage() { // Each different time the component is loaded with new prop paramters to insert a different image.
     if (props.onboardNum === 1) {
       return (
         <Image 
@@ -42,7 +42,7 @@ const OnboardingComponent = (props: any) => {
     )
   }
 
-  function handleNext() {
+  function handleNext() { // Handling changing of screen
     if (props.onboardNum === 1) {
       navigation.navigate('Onboard2');
     } else if (props.onboardNum === 2) {
@@ -70,7 +70,7 @@ const OnboardingComponent = (props: any) => {
     );
   }
 
-  return (
+  return ( // Component itself
     <View>
       {onboardImage()}
       <ImageBackground style={styles.locateImageWhiteExtension} source={require('../newImages/LocateWhiteBottom.png')}>
@@ -96,7 +96,7 @@ const OnboardingComponent = (props: any) => {
 
 export default OnboardingComponent
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   locateImage: {
     height: 0.65 * Dimensions.get('window').height,

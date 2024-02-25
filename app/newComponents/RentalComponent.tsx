@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const RentalComponent = () => {
+const RentalComponent = () => { // This component will be according to data retrieval from api and each block shows a single rental of the user
   return (
     <View style={styles.container}>
       <Text style={styles.titleText}>Transaction ID: XXXXXXXXXXX</Text>

@@ -42,6 +42,8 @@ import * as Keychain from 'react-native-keychain'
 
 const Map = () => {
 
+  // Custom map design JSON
+
   const custom = [
     {
         "featureType": "water",
@@ -221,7 +223,7 @@ const Map = () => {
 
   const [x, setX]: any = useState(null)
 
-  const origin = {latitude: 37.3318456, longitude: -122.0296002};
+  const origin = {latitude: 37.3318456, longitude: -122.0296002}; // Google maps api, defining params for user location on-load
 const destination = {latitude: 37.771707, longitude: -122.4053769};
 
 
@@ -255,7 +257,7 @@ const destination = {latitude: 37.771707, longitude: -122.4053769};
     longitudeDelta: 0.0421,
   });
 
-  useEffect(() => {
+  useEffect(() => { // On load get users position and update on map
     Geolocation.getCurrentPosition((pos) => {
       const crd = pos.coords;
       setPosition({
@@ -268,7 +270,7 @@ const destination = {latitude: 37.771707, longitude: -122.4053769};
   }, []);
 
 
-  function pressScanToCharge() {
+  function pressScanToCharge() { // Move to scanner
     navigation.navigate('ScannerQR');
   }
   
@@ -292,7 +294,7 @@ const destination = {latitude: 37.771707, longitude: -122.4053769};
 
   
 
-  async function pressSettings() {
+  async function pressSettings() { // Move to settings
     //navigation.navigate('Settings');
     //navigation.navigate('Login');
 
@@ -317,7 +319,7 @@ const destination = {latitude: 37.771707, longitude: -122.4053769};
   }
 
   
-  const pressScan = useCallback((index) => {
+  const pressScan = useCallback((index) => { // Open different bottom sheets on pressing of buttons
     sheetRef.current?.snapToIndex(index);
     setIsOpen(true);
   }, []);
@@ -341,7 +343,7 @@ const destination = {latitude: 37.771707, longitude: -122.4053769};
   }
  
 
-  return (
+  return ( // Component
     <GestureHandlerRootView style={styles.container}>
       <MapView
       mapPadding={{bottom: -10, top: 0, right: 0, left: 0}}
@@ -493,7 +495,7 @@ setX(position2)
 
 export default Map
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   container: {
     alignItems: 'center',

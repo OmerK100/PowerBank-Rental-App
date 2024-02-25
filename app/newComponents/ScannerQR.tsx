@@ -8,7 +8,7 @@ import UnlockBoldIcon from '../newIcons/unlockBoldIcon.svg'
 import SettingsRegIcon from '../newIcons/settingsRegIcon.svg'
 
 
-const ScannerQR = () => {
+const ScannerQR = () => { // QR scanner
 
  /* function marker(color: string, size: string | number, borderLength: string | number, thickness: number = 2, borderRadius: number = 0): JSX.Element {
     return <View style={{ height: size, width: size }}>
@@ -53,7 +53,7 @@ const ScannerQR = () => {
       }
     />*/
 
-  return (
+  return ( // Component, scans QR codes and retrievs their data
     <View style={styles.container}>
 
 
@@ -112,7 +112,7 @@ const ScannerQR = () => {
 
 export default ScannerQR
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   container: {
     width: Dimensions.get('window').width,

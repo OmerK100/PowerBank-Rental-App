@@ -2,13 +2,13 @@ import { StyleSheet, Text, View, ImageBackground, Dimensions, TouchableOpacity }
 import React from 'react'
 import LeftArrow from '../newIcons/chevron-left.svg'
 
-const Support = ({navigation}: any) => {
+const Support = ({navigation}: any) => { // Screen that shows options for contact
 
   function handleBackPress() {
     navigation.goBack();
   }
 
-  return (
+  return ( // Component
     <ImageBackground style={styles.container} source={require('../newImages/Rectangle.png')}>
       <View style={styles.topView}>
         <TouchableOpacity>
@@ -53,7 +53,7 @@ const Support = ({navigation}: any) => {
 
 export default Support
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   container: {
     height: Dimensions.get('window').height,

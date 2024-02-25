@@ -47,7 +47,7 @@ const Login = () => {
 
   const navigation: any = useNavigation();
 
-  const [changedInputEmail, setChangedInputEmail] = useState("")
+  const [changedInputEmail, setChangedInputEmail] = useState("") // States
 
   const [changedInputPassword, setChangedInputPassword] = useState("")
 
@@ -57,7 +57,7 @@ const Login = () => {
 
   const [selected, setSelected] = useState("");
 
-  function addCheckIcon(number) {
+  function addCheckIcon(number) { // If data is inseretd correctly, show a check icon
     if (number.length === 7 && selected !== "") {
       return <CheckIcon style={styles.checkIcon}/>
     }
@@ -65,7 +65,7 @@ const Login = () => {
     return
   }
 
-  async function handleLoginPress() {
+  async function handleLoginPress() { // Authenticate login with firebase api
     try {
       const response = await signInWithEmailAndPassword(auth, changedInputEmail, changedInputPassword);
       console.log(44444444444444444444444444444444);
@@ -81,12 +81,12 @@ const Login = () => {
     }
   }
 
-  async function setCredentials(username, password) {
+  async function setCredentials(username, password) { // Save login credentials on user's device for next time he loads the app
     console.log(3333)
     await Keychain.setGenericPassword(username, password);
   }
 
-  function handleSignupTitlePress() {
+  function handleSignupTitlePress() { // State changes on form
     navigation.navigate('Signup');
   }
 
@@ -102,7 +102,7 @@ const Login = () => {
     setChangedInputPassword(text)
   }
 
-  async function handleGoogleAPIsignUp() {
+  async function handleGoogleAPIsignUp() { // Google api for Google sign up to be added
     
     
     try {
@@ -135,7 +135,7 @@ return ;
     {key: '6', value: '058'},
   ];
 
-  return (
+  return ( // Component
     <ImageBackground style={styles.container} source={require('../newImages/Rectangle.png')} imageStyle={{borderTopLeftRadius: 115, borderTopRightRadius: 115}}>
       <View style={styles.options}>
         <View>
@@ -210,7 +210,7 @@ return ;
 
 export default Login
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   container: {
     height: Dimensions.get('window').height,

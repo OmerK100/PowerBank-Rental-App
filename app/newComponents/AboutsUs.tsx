@@ -4,11 +4,11 @@ import LeftArrow from '../newIcons/chevron-left.svg'
 
 const AboutsUs = ({navigation}: any) => {
 
-  function handleBackPress() {
+  function handleBackPress() { // Handle back
     navigation.goBack();
   }
 
-  return (
+  return ( // Component
     <ImageBackground style={styles.container} source={require('../newImages/Rectangle.png')}>
       <View style={styles.topView}>
         <TouchableOpacity>
@@ -25,7 +25,7 @@ const AboutsUs = ({navigation}: any) => {
 
 export default AboutsUs
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ // Design
 
   container: {
     height: Dimensions.get('window').height,

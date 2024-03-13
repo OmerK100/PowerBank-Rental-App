@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "757260617197",
+    "firebase_url": "https://inpower-d5fc9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "inpower-d5fc9",
+    "storage_bucket": "inpower-d5fc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757260617197:android:482e194e816de80b6d93e4",
+        "android_client_info": {
+          "package_name": "com.newapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757260617197-jpom82gvvqqufrh4j77l41fidh1ona5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newapp2",
+            "certificate_hash": "e1ec0ad723e4f2ac34662655ed0110035190faff"
+          }
+        },
+        {
+          "client_id": "757260617197-8p8ohhdc36d8j981bhk3dfhv68pjb6vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDp6a-vwIFuOKJnCifVXwlBXbmOKBnYCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757260617197-8p8ohhdc36d8j981bhk3dfhv68pjb6vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

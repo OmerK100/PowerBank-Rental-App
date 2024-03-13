@@ -26,11 +26,15 @@ The front-end code can be seen inside app/newComponents folder.
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/a5ea8f7a-e7e8-4ff1-a86d-27ae31e585c8" width=300 height=700>
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/c102e6b3-055c-441c-b869-09ba852dd494" width=300 height=700>
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/3510fcd3-ddd1-4117-beb0-fae0daf2af4d" width=300 height=700>
+<img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/d80645a2-9ed7-4aaf-a8b7-1898741b9855" width=300 height=700>
+
 
 #### Main screen with map and navigation bar:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/f11e1c67-7554-44d1-a90f-5bf8b0aa7a66" width=300 height=700>
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/d4e3b4ba-ad48-44c7-a1bc-c334bf2fd692" width=300 height=700>
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/4b6e1214-3560-4496-965e-13d57d1ed140" width=300 height=700>
+<img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/b206d963-6adf-438c-9846-b70b879a7bea" width=300 height=700>
+<img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/441c4dae-6fef-48e0-9c04-d3171f9907fc" width=300 height=700>
 
 #### Getting started screen:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/d2d65dbd-c587-43ad-9c04-411c91d8f109" width=300 height=700>

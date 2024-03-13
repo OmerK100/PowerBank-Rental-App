@@ -19,14 +19,16 @@ The front-end code can be seen inside app/newComponents folder.
 * Finishing the Firebase API
 * Creating a payment service
 * Connecting the IoT physical power-bank machines to the API
+* 
 
 ## Following are images of some of the app's screens:
+
 
 #### Login/sign up screens:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/a5ea8f7a-e7e8-4ff1-a86d-27ae31e585c8" width=300 height=700>
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/c102e6b3-055c-441c-b869-09ba852dd494" width=300 height=700>
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/3510fcd3-ddd1-4117-beb0-fae0daf2af4d" width=300 height=700>
-<img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/d80645a2-9ed7-4aaf-a8b7-1898741b9855" width=300 height=700>
+<img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/6262322c-66d5-4cb7-a695-d86ce26168ac" width=300 height=700>
 
 
 #### Main screen with map and navigation bar:
@@ -36,17 +38,22 @@ The front-end code can be seen inside app/newComponents folder.
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/b206d963-6adf-438c-9846-b70b879a7bea" width=300 height=700>
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/441c4dae-6fef-48e0-9c04-d3171f9907fc" width=300 height=700>
 
+
 #### Getting started screen:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/d2d65dbd-c587-43ad-9c04-411c91d8f109" width=300 height=700>
+
 
 #### Getting started onboarding screen:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/a0dcea5f-a8f6-4f37-b1ec-710167c6a68a" width=300 height=700>
 
+
 #### QR scanner screen:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/e839580e-7175-4ba9-9720-c7f0b9cb259b" width=300 height=700>
 
+
 #### Settings screen:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/c74f4b74-1113-4093-86b5-24fab97657c0" width=300 height=700>
+
 
 #### Old previous designs:
 <img src="https://github.com/OmerK100/PowerBank-Rental-App/assets/139342166/278c8b15-af2f-450d-a202-6e252c319f00" width=300 height=700>
